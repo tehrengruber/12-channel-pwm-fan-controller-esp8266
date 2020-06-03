@@ -1,0 +1,273 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MAX31790ATI_:MAX31790ATI+ U1
+U 1 1 5EBC137E
+P 6950 3950
+F 0 "U1" H 6950 5420 50  0000 C CNN
+F 1 "MAX31790ATI+" H 6950 5329 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm_ThermalVias" H 6950 3950 50  0001 L BNN
+F 3 "None" H 6950 3950 50  0001 L BNN
+F 4 "6-CH PWM Output Fan RPM Controller 3V to 5.5V 28-Pin TQFN Tube" H 6950 3950 50  0001 L BNN "Feld4"
+F 5 "Maxim Integrated" H 6950 3950 50  0001 L BNN "Feld5"
+F 6 "MAX31790ATI+" H 6950 3950 50  0001 L BNN "Feld6"
+F 7 "Unavailable" H 6950 3950 50  0001 L BNN "Feld7"
+F 8 "TQFN-28 Maxim" H 6950 3950 50  0001 L BNN "Feld8"
+	1    6950 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3550 6050 3550
+$Comp
+L Connector:Conn_01x07_Male J1
+U 1 1 5EBC8199
+P 5250 3850
+F 0 "J1" H 5358 4331 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 5358 4240 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 5250 3850 50  0001 C CNN
+F 3 "~" H 5250 3850 50  0001 C CNN
+	1    5250 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3650 6050 3650
+Wire Wire Line
+	5450 3750 5800 3750
+Wire Wire Line
+	5800 3750 5800 3950
+Wire Wire Line
+	5800 3950 6050 3950
+Wire Wire Line
+	5450 3850 6050 3850
+Wire Wire Line
+	5450 3950 5700 3950
+Wire Wire Line
+	5700 3950 5700 3800
+Wire Wire Line
+	5700 3800 5900 3800
+Wire Wire Line
+	5900 3800 5900 3750
+Wire Wire Line
+	5900 3750 6050 3750
+Wire Wire Line
+	5450 4050 5800 4050
+Wire Wire Line
+	5800 4050 5800 4250
+Wire Wire Line
+	5800 4250 6050 4250
+Wire Wire Line
+	5450 4150 6050 4150
+$Comp
+L Connector:Conn_01x07_Male J4
+U 1 1 5EBE0F32
+P 8950 4850
+F 0 "J4" H 9058 5331 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 9058 5240 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 8950 4850 50  0001 C CNN
+F 3 "~" H 8950 4850 50  0001 C CNN
+	1    8950 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 5150 8300 5150
+Wire Wire Line
+	8750 5050 8250 5050
+Wire Wire Line
+	8250 5050 8250 4850
+Wire Wire Line
+	8250 4850 7850 4850
+Wire Wire Line
+	8750 4950 8300 4950
+Wire Wire Line
+	8300 4950 8300 4750
+Wire Wire Line
+	8300 4750 7850 4750
+Wire Wire Line
+	8750 4850 8350 4850
+Wire Wire Line
+	8350 4850 8350 4550
+Wire Wire Line
+	8350 4550 7850 4550
+Wire Wire Line
+	8750 4750 8400 4750
+Wire Wire Line
+	8400 4750 8400 4450
+Wire Wire Line
+	8400 4450 7850 4450
+Wire Wire Line
+	8750 4650 8450 4650
+Wire Wire Line
+	8450 4650 8450 4250
+Wire Wire Line
+	8450 4250 7850 4250
+Wire Wire Line
+	8750 4550 8500 4550
+Wire Wire Line
+	8500 4550 8500 4150
+Wire Wire Line
+	8500 4150 7850 4150
+$Comp
+L Connector:Conn_01x07_Male J3
+U 1 1 5EBED05C
+P 8950 3650
+F 0 "J3" H 9058 4131 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 9058 4040 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 8950 3650 50  0001 C CNN
+F 3 "~" H 8950 3650 50  0001 C CNN
+	1    8950 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 3950 7850 3950
+Wire Wire Line
+	8750 3850 7850 3850
+Wire Wire Line
+	8750 3750 8100 3750
+Wire Wire Line
+	8100 3750 8100 3650
+Wire Wire Line
+	8100 3650 7850 3650
+Wire Wire Line
+	8750 3650 8150 3650
+Wire Wire Line
+	8150 3650 8150 3550
+Wire Wire Line
+	8150 3550 7850 3550
+Wire Wire Line
+	8750 3550 8200 3550
+Wire Wire Line
+	8200 3550 8200 3350
+Wire Wire Line
+	8200 3350 7850 3350
+Wire Wire Line
+	8750 3450 8250 3450
+Wire Wire Line
+	8250 3450 8250 3250
+Wire Wire Line
+	8250 3250 7850 3250
+Wire Wire Line
+	8750 3350 8300 3350
+$Comp
+L Connector:Conn_01x07_Male J2
+U 1 1 5EBFA333
+P 5200 2850
+F 0 "J2" H 5308 3331 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 5308 3240 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 5200 2850 50  0001 C CNN
+F 3 "~" H 5200 2850 50  0001 C CNN
+	1    5200 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2550 5900 2550
+Wire Wire Line
+	5900 2550 5900 2950
+Wire Wire Line
+	5900 2950 6050 2950
+Wire Wire Line
+	5400 2650 5850 2650
+Wire Wire Line
+	5850 2650 5850 3050
+Wire Wire Line
+	5850 3050 6050 3050
+Wire Wire Line
+	5400 2750 6150 2750
+Wire Wire Line
+	6150 2750 6150 2300
+Wire Wire Line
+	6150 2300 8700 2300
+Wire Wire Line
+	8700 2300 8700 2950
+Wire Wire Line
+	8700 2950 7850 2950
+Wire Wire Line
+	5400 2850 5800 2850
+Wire Wire Line
+	5800 2850 5800 3350
+Wire Wire Line
+	5800 3350 6050 3350
+Wire Wire Line
+	5400 2950 5750 2950
+Wire Wire Line
+	5750 2950 5750 3450
+Wire Wire Line
+	5750 3450 6050 3450
+Wire Wire Line
+	5400 3050 5700 3050
+Wire Wire Line
+	5700 3050 5700 3150
+Wire Wire Line
+	5700 3150 6050 3150
+Wire Wire Line
+	5400 3150 5650 3150
+Wire Wire Line
+	5650 3150 5650 2250
+Wire Wire Line
+	5650 2250 8850 2250
+Wire Wire Line
+	8850 2250 8850 3050
+Wire Wire Line
+	8850 3050 7850 3050
+$Comp
+L Device:C C1
+U 1 1 5EC1ACE1
+P 9250 2750
+F 0 "C1" H 9365 2796 50  0000 L CNN
+F 1 "C" H 9365 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9288 2600 50  0001 C CNN
+F 3 "~" H 9250 2750 50  0001 C CNN
+	1    9250 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDPWR #PWR0101
+U 1 1 5EC2639C
+P 10150 2750
+F 0 "#PWR0101" H 10150 2550 50  0001 C CNN
+F 1 "GNDPWR" H 10154 2596 50  0000 C CNN
+F 2 "" H 10150 2700 50  0001 C CNN
+F 3 "" H 10150 2700 50  0001 C CNN
+	1    10150 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 2750 9400 2750
+Wire Wire Line
+	7850 2750 8300 2750
+$Comp
+L power:GNDPWR #PWR0102
+U 1 1 5EC34F2F
+P 8650 5450
+F 0 "#PWR0102" H 8650 5250 50  0001 C CNN
+F 1 "GNDPWR" H 8654 5296 50  0000 C CNN
+F 2 "" H 8650 5400 50  0001 C CNN
+F 3 "" H 8650 5400 50  0001 C CNN
+	1    8650 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 5150 8300 5450
+Wire Wire Line
+	8300 5450 8650 5450
+Connection ~ 8300 5150
+Wire Wire Line
+	8300 5150 8750 5150
+Wire Wire Line
+	8300 3350 8300 2750
+Connection ~ 8300 2750
+Wire Wire Line
+	8300 2750 9100 2750
+$EndSCHEMATC
